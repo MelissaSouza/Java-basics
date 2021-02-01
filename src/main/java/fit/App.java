@@ -4,6 +4,12 @@ import fit.basics.FlowControl;
 import fit.basics.Operators;
 import fit.basics.Types;
 import fit.basics.Variables;
+import fit.utils.collections.Collections;
+import fit.utils.dynamics.Dynamics;
+import fit.utils.functions.Functions;
+import fit.utils.streams.Streams;
+
+import java.util.function.Function;
 
 /**
  * Aqui temos nosso tradicional "Hello world"!
@@ -22,5 +28,9 @@ public class App {
         Types.experiment();
         Operators.experiment();
         FlowControl.experiment(10);
+        Collections.experiment();
+        Functions.experiment();
+        Dynamics.experiment();
+        Streams.experiment();
     }
 }
